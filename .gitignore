@@ -4,6 +4,9 @@
 !.env.example
 cookies.txt
 cookies.json
+*_cookies.txt
+*_cookies.json
+cookies/
 *.pem
 *.key
 
