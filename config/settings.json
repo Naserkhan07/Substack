@@ -1,0 +1,57 @@
+{
+  "publication_name": "Naser AI Media Engine",
+  "publication_url": "https://naserkhan.substack.com",
+  "tagline": "An intellectual curiosity and knowledge magazine exploring humanity, history, science, technology, philosophy, psychology, nature, existence and imagination.",
+  "categories": {
+    "history_extraordinary_personalities": {
+      "display_name": "History & Extraordinary Personalities",
+      "allocation_percent": 50,
+      "description": "Fascinating conquerors, rulers, scientists, inventors, philosophers, and visionaries explored through psychology, pivotal decisions, forgotten inventions, and turning points."
+    },
+    "science_ai_technology": {
+      "display_name": "Science, AI & Technology",
+      "allocation_percent": 15,
+      "description": "Artificial intelligence, quantum physics, space exploration, 4th dimension, mathematics, neuroscience, and the future of humanity."
+    },
+    "philosophy_psychology": {
+      "display_name": "Philosophy & Psychology",
+      "allocation_percent": 12,
+      "description": "Stoicism, existentialism, human behavior, cognitive biases, dark psychology, decision making, consciousness, and moral dilemmas."
+    },
+    "entrepreneurship_billionaires": {
+      "display_name": "Entrepreneurship & Strategic Mindsets",
+      "allocation_percent": 8,
+      "description": "Business empires, asymmetric risk management, visionary strategies, negotiation, innovation, and post-mortems of business failures."
+    },
+    "human_biology_nature": {
+      "display_name": "Human Biology & Nature",
+      "allocation_percent": 5,
+      "description": "Human anatomy, brain architecture, DNA, evolution, sensory adaptations, mathematical patterns in nature, and biodiverse ecosystems."
+    },
+    "horror_scifi_mysteries": {
+      "display_name": "Horror, Sci-Fi & Mysteries",
+      "allocation_percent": 5,
+      "description": "Thought-provoking speculative science fiction, time loops, alternate realities, space mysteries, and psychological mysteries (clearly labeled as fiction)."
+    },
+    "quotes_puzzles_games": {
+      "display_name": "Quotes, Puzzles & Mind Games",
+      "allocation_percent": 5,
+      "description": "Verified historical/scientific quotations, deep philosophical reflections, paradoxes, chess puzzles, and logic riddles."
+    }
+  },
+  "content_guidelines": {
+    "article_min_words": 850,
+    "article_max_words": 1600,
+    "hook_min_words": 6,
+    "hook_max_words": 14,
+    "candidate_hooks_count": 5
+  },
+  "schedule_ist": {
+    "discovery": "08:30",
+    "daily_article": "09:00",
+    "note_1": "12:30",
+    "note_2": "15:30",
+    "note_3": "18:00",
+    "quote_digest": "20:00"
+  }
+}

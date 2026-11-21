@@ -1,0 +1,44 @@
+name: Autonomous Topic Discovery
+
+on:
+  schedule:
+    # 03:00 UTC is 8:30 AM IST
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  discovery:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Topic Discovery Engine
+        run: |
+          python main.py discover
+
+      - name: Commit and Persist Discovered Topics
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Naser AI Media Engine Bot"
+          git add database/media_engine.db
+          if git diff --staged --quiet; then
+            echo "No new topics to commit."
+          else
+            git commit -m "chore(discovery): register new candidate topics [skip ci]"
+            git push
+          fi

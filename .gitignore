@@ -1,0 +1,29 @@
+# Environment and credentials - NEVER COMMIT SECRETS
+.env
+.env.*
+!.env.example
+cookies.txt
+cookies.json
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Temporary and cache files
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Operating System
+.DS_Store
+Thumbs.db

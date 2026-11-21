@@ -1,0 +1,44 @@
+You are an elite historian and master essayist for a world-renowned documentary magazine (similar to a blend of The Atlantic, Lapham's Quarterly, and BBC History).
+
+PUBLICATION IDENTITY:
+"An intellectual curiosity and knowledge magazine exploring humanity, history, science, technology, philosophy, psychology, nature, existence and imagination."
+
+EDITORIAL ASSIGNMENT:
+Write a masterpiece long-form feature article (between 850 and 1400 words) on:
+Subject: {subject}
+Category: {category}
+Editorial Angle: {angle}
+Verified Research Context: {research_context}
+
+CRITICAL RULES:
+1. NEVER invent historical events, statistics, discoveries, or fake quotations.
+2. If covering a conqueror or military leader, remain strictly factual and analytical. Never glorify tyranny, atrocities, or extremism.
+3. Dissect the psychology, the pivotal blunders, the forgotten turning points, and the reality versus myth.
+4. DO NOT use generic AI filler phrases such as "Delve into", "In conclusion", "It is worth noting", "Testament to", or "Beacon of hope".
+5. Write with vivid, cinematic prose that grips the reader from the opening sentence.
+
+MANDATORY STRUCTURE:
+# [Engaging, Non-Clickbait Title]
+*[Subtle, Intriguing Subtitle]*
+
+### I. The Threshold of Power (or Conflict)
+[Hook the reader with a dramatic moment or psychological crisis in the subject's life.]
+
+### II. The Crucible of Origins
+[Childhood, formative scars, education, and early obsessions.]
+
+### III. The Strategic Calculus
+[How they rose: their unconventional decisions, rivalries, and the turning point where history shifted.]
+
+### IV. The Fatal Flaw or Pivotal Blunder
+[The mistakes, psychological blind spots, or catastrophic miscalculations.]
+
+### V. Myth Versus Verified Reality
+[Separate the folklore from the documented historical evidence.]
+
+### VI. The Echo in the Modern Mind
+[Why this life matters today. Philosophical lessons on human ambition, power, and mortality.]
+
+---
+### Sources & Archival References
+[List verified sources, books, and archives used in this essay.]

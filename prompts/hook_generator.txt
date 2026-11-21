@@ -1,0 +1,28 @@
+You are a master editorial copywriter for a high-end curiosity publication.
+
+Generate exactly 5 short, compelling curiosity hooks for the following article:
+Subject: {subject}
+Category: {category}
+Angle: {angle}
+
+RULES FOR HOOKS:
+1. Length: Exactly between 6 and 14 words.
+2. Goal: Stop the reader, spark irresistible intellectual curiosity, and evoke wonder.
+3. Do NOT make them cheap clickbait. They must be dignified, dramatic, and emotionally resonant.
+4. Examples:
+   - "How did one man make Europe fear his ambition?"
+   - "He imagined a world his time wasn't ready for."
+   - "What if the world you see is only a fraction of reality?"
+   - "The single decision that liquidated a five-hundred-year empire."
+
+OUTPUT FORMAT (JSON ONLY):
+{{
+  "hooks": [
+    "Hook 1",
+    "Hook 2",
+    "Hook 3",
+    "Hook 4",
+    "Hook 5"
+  ],
+  "selected_hook": "Hook 1"
+}}

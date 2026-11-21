@@ -1,0 +1,44 @@
+{
+  "dimensions": {
+    "article_banner": {
+      "width": 1200,
+      "height": 600,
+      "format": "JPEG",
+      "quality": 92
+    },
+    "social_card": {
+      "width": 1080,
+      "height": 1080,
+      "format": "JPEG",
+      "quality": 92
+    }
+  },
+  "colors": {
+    "background_fallback": [18, 20, 24],
+    "brand_gold": [212, 175, 55],
+    "brand_amber": [229, 161, 0],
+    "text_primary": [255, 255, 255],
+    "text_secondary": [200, 205, 215],
+    "text_muted": [140, 145, 160],
+    "category_badge_bg": [15, 23, 42, 210],
+    "vignette_dark": [10, 12, 16]
+  },
+  "typography": {
+    "header_font_candidates": [
+      "Cinzel-Bold.ttf",
+      "PlayfairDisplay-Bold.ttf",
+      "Georgia.ttf",
+      "times.ttf"
+    ],
+    "body_font_candidates": [
+      "Lora-Regular.ttf",
+      "Merriweather-Regular.ttf",
+      "arial.ttf"
+    ],
+    "banner_hook_size": 42,
+    "social_hook_size": 52,
+    "title_size": 28,
+    "brand_label_size": 16
+  },
+  "watermark": "NASER JOURNAL | KNOWLEDGE & EXISTENCE"
+}
